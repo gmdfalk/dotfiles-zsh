@@ -2,17 +2,28 @@
 
 This repository is based on [oh-my-zsh]. It can be installed as standalone or via the [dotfiles] repository.
 
-  [oh-my-zsh]: https://github.com/robbyrussell/oh-my-zsh
-  [dotfiles]: https://github.com/mikar/dotfiles
-
 ## Installation
 
 ```
-    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    sh -c "$(curl -fsSL https://raw.github.com/mikar/oh-my-zsh/master/tools/install.sh)"
 ```
 
 ## Customization
-Edit ~/.zshrc and/or add your custom .zsh files in `~/.oh-my-zsh/custom/`.
+Edit ~/.zshrc, ~/.zshrc.local and/or add your custom .zsh files in `~/.oh-my-zsh/custom/`.
+
+## Features
+* git is aliased to [hub] for git superpowers
+* solarized themed and vim style key bindings
+
+
+Some useful resources to get to know [oh-my-zsh]:  
+* [Cheatsheet](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet)
+* [Plugins](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins)
+
+
+  [oh-my-zsh]: https://github.com/robbyrussell/oh-my-zsh
+  [dotfiles]: https://github.com/mikar/dotfiles
+  [hub]: https://github.com/github/hub
 
 # Original README
 ![Oh My Zsh](https://s3.amazonaws.com/ohmyzsh/oh-my-zsh-logo.png)
